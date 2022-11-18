@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-body{
+    background-color: white;
+    padding: 12px 64px;
+}
+
+.main-header{
+    background-color: lightskyblue;
+}
+
+.side-bar{
+    background-color: lightgoldenrodyellow;
+}
+
+.columns{
+    margin: 0;
+}
+.columns:last-child{
+    margin-bottom: 0;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.full-height {
+    flex: 1;
+    height: 100%;
+}
+
+.thumb{
+    padding: 0 64px;
+}
+
+.img-wrapper{
+    padding: 0;
+}
